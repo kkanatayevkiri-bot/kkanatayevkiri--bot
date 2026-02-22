@@ -1,1 +1,1 @@
-# kkanatayevkiri--bot
+# (HTML/CSS/JAVA SCRIPT) Project
