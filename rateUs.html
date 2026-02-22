@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        th, td
+        {
+            text-align:start;
+            color:white;
+            padding:5px;
+        }
+        textarea
+        {
+            height: 100px;
+            width: 170px;
+        }
+    </style>
+    <script>
+        function check()
+        {
+            var check1 = document.rateUs.n.value;
+            var check2 = document.rateUs.pho.value;
+            var check3 = document.rateUs.mail.value;
+            //check name
+            if (isNaN(check1) == false)
+            {
+                alert("Enter Only letters!")
+                return false;
+            }
+            else if (check1.length == 0) {
+                alert("Please Enter your name")
+                return false;
+            }
+            else if (check1.length < 3) {
+                alert("Please enter a name at list with 3 letters!")
+                return false;
+            }
+            //check phone
+            if (check2.length < 10) {
+                alert("Enter a valid phone number!")
+                return false;
+            }
+
+            else if (isNaN(check2) == true)
+            {
+                alert("Please do not enter letters into a phone number!")
+                return false;
+            }
+            //check valid mail
+
+            if (!check3.includes("@"))
+            {
+                alert("Invalid Email addres!")
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <form name="rateUs" onsubmit="return check()">
+            <table>
+                <tr>
+                    <th><label for="n">Enter your name:</label></th>
+                    <td><input id="n" name="n" type="text"></td>
+                </tr>
+                <tr>
+                    <th><label for="pho">Phone number:</label></th>
+                    <td><input id="pho" name="pho" type="text"></td>
+                </tr>
+                <tr>
+                    <th><label for="mail">Mail:</label></th>
+                    <td><input id="mail" name="mail" type="text"></td>
+                </tr>
+                <tr>
+                    <th><label for="txt">Leave us your opiniton:</label></th>
+                    <td><textarea id="txt"></textarea></td>
+                </tr>
+                <tr>
+                    <th>Choose a gender:</th>
+                </tr>
+                <tr>
+                    <th><label for="m">Male</label></th>
+                    <td><input id="m" name="gender" type="radio"></td>
+                </tr>
+                <tr>
+                    <th><label for="f">Female</label></th>
+                    <td><input id="f" name="gender" type="radio"></td>
+                </tr>
+            </table>
+            <br>
+            <input type="reset">
+            <input type=submit>
+        </form>
+    </center>
+</body>
+</html>

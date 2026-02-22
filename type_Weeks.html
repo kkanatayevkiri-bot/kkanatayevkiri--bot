@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        h1,p,h3
+        {
+            color:white;
+        }
+        thead
+        {
+            position:sticky;
+            top:0;
+        }
+
+        table
+        {
+            margin:0 auto;
+        }
+
+        th
+        {
+
+            padding:10px;
+            text-align:center;
+        }
+        td
+        {
+            background-color: lightgrey;
+            text-align: center;
+        }
+
+        .noef
+        {
+            background-color:black;
+            color:white;
+        }
+
+        .weekef {
+            background-color: red;
+            color: white;
+        }
+
+        .superef
+        {
+
+            background-color:green;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1>About Pokémon types</h1>
+    <p>All Pokémon creatures and their moves are assigned certain types.<br>
+    Each type has several strengths and weaknesses in both attack and defense.<br>
+    In battle, you should use Pokémon and moves that have a type advantage over your opponent; doing so will cause much more damage than normal.</p>
+    <br>
+    <p>A single-type advantage (for instance a Water attack against a Ground-type Pokémon) will net you double normal damage.<br>
+    The advantages also stack up, so a double-type advantage (for instance a Water attack against a Ground/Rock-type Pokémon) will net you quadruple damage.<br>
+    In both these cases you will see the message It's super effective! in-game after the attack.</p>
+    <br>
+    <h3>Below here is the Pokemon weeknees chart</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th style="background-color:white">Defender(right)
+                <br>Attacker(below)</th>
+                <th style="background-color:#4c4a4a">Normal</th>
+                <th style="background-color:#bd0707">Fire</th>
+                <th style="background-color:#2e30ff">Water</th>
+                <th style="background-color:#119b0b">Grass</th>
+                <th style="background-color:#e5ff00">Electric</th>
+                <th style="background-color:#00ffe3">Ice</th>
+                <th style="background-color:red">Figting</th>
+                <th style="background-color:#f800ff">Poison</th>
+                <th style="background-color:#5e3a08">Ground</th>
+                <th style="background-color:#6ab4ce">Flying</th>
+                <th style="background-color:#ff0096">Psychic</th>
+                <th style="background-color:#1dea14">Bug</th>
+                <th style="background-color:#bb6f04">Rock</th>
+                <th style="background-color:#580e47">Ghost</th>
+                <th style="background-color:#231689">Dragon</th>
+                <th style="background-color:#201b1b;color:white">Dark</th>
+            </tr>
+        </thead>
+        <tr>
+            <th style="background-color:#4c4a4a">Normal</th>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="noef">0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#bd0707">Fire</th>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#2e30ff">Water</th>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td class="weekef">0.5x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#119b0b">Grass</th>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#e5ff00">Electric</th>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td class="weekef">0.5x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="noef">0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#00ffe3">Ice</th>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:red">Fighting</th>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="weekef">0.5x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td class="noef">0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#f800ff">Poison</th>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#5e3a08">Ground</th>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="noef">0x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#6ab4ce">Flying</th>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#ff0096">Psychic</th>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="noef">0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#1dea14">Bug</th>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td class="superef">2.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#bb6f04">Rock</th>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#580e47">Ghost</th>
+            <td class="noef">0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#231689">Dragon</th>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+        </tr>
+        <tr>
+            <th style="background-color:#201b1b;color:white" ">Dark</th>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td>1.0x</td>
+            <td class="superef">2x</td>
+            <td>1.0x</td>
+            <td class="weekef">0.5x</td>
+        </tr>
+    </table>
+</body>
+</html>
